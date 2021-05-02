@@ -1,0 +1,29 @@
+:root {
+    --c-primary-1: hsl(233, 47%, 7%);
+    --c-primary-2: hsl(244, 38%, 16%);
+    --c-primary-3: hsl(277, 64%, 61%);
+
+    --c-neutral-1: hsl(0, 0%, 100%);
+    --c-neutral-2: hsla(0, 0%, 100%, 0.75);
+    --c-neutral-3: hsla(0, 0%, 100%, 0.6);
+}
+
+
+html {
+    font-size: 93.75%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+
+body {
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+}
