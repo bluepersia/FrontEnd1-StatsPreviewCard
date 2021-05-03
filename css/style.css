@@ -184,7 +184,9 @@ body {
     .stats-preview__stats {
         margin-top: auto;
         display: grid;
-        grid-template-columns: minmax(auto, 150px) minmax(auto, 150px) minmax(auto, 150px);
+        grid-template-columns: repeat(3, minmax(auto, 130px));
+        column-gap: 20px;
+        
     }
 
    
